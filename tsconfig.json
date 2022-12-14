@@ -1,17 +1,14 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
+    "types": ["solid-start/env"],
     "target": "ESNext",
-    "module": "ESNext",
+    "strict": true,
+    "paths": { "~/*": ["./src/*"] },
     "moduleResolution": "node",
+    "module": "ESNext",
     "jsxImportSource": "solid-js",
     "jsx": "preserve",
-    "strict": true,
-    "types": ["vite/client"],
-    "baseUrl": "./",
-    "paths": {
-      "~/*": ["./src/*"]
-    }
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   }
 }
